@@ -19,13 +19,13 @@ player_switch = 1
 
 print_grid(game_grid)
 
-# loop runs until grid runs out empty spaces
+# loop runs until the grid runs out empty spaces
 while sum(i.count(' ') for i in grid) != 0:
 
     # store coordinates in a list -> [1, 2]
     move = [x for x in input("Enter the coordinates: ") if x != ' ']
 
-    # check if the coordinates are valid
+    # check if the coordinates were valid
     if move[0] in ['1', '2', '3'] and move[1] in ['1', '2', '3'] and len(move) == 2:
 
         # progress further in the game
