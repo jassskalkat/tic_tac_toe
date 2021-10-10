@@ -1,5 +1,5 @@
 # tic_tac_toe is a program that simulates the real tic_tac_toe game.
-# Two players fight against each other and input their coordinates for 'X' or 'O'.
+# Two players fight against each other and use their strategies to win.
 
 # empty list and nested list for printing and working upon
 game_grid = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
