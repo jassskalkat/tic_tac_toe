@@ -3,7 +3,7 @@
 
 # empty list and nested list for printing and working upon
 game_grid = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
-grid = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
+grid = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']] 
 
 
 # print the game grid with updated 'X' and 'O'
